@@ -1,0 +1,80 @@
+# ---------------------
+# 📦 General Ignore
+# ---------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# ---------------------
+# 🧪 Python Specific
+# ---------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# Pip & virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ---------------------
+# ⚙️ IDE & Editor
+# ---------------------
+.atom/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode (optional - uncomment if you want to ignore)
+#.vscode/
+
+# ---------------------
+# 🧰 Flutter/Dart/Pub
+# ---------------------
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+
+# ---------------------
+# 📱 Android
+# ---------------------
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ---------------------
+# 🛠 Misc
+# ---------------------
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+.bfg-report/
+
+# ---------------------
+# 🔒 Sensitive Files (Optional)
+# ---------------------
+*.keystore
+*.jks
+.env
+.env.*
