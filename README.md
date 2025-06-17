@@ -47,7 +47,7 @@ plantoguard/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/Rmdsketch/PlantoGuard.git
+git clone https://github.com/Dnayrr/PlantoGuard.git
 cd plantoguard/backend
 ```
 
